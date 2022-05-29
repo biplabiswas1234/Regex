@@ -9,7 +9,7 @@ namespace RegexValidation
             UserRegistration userRegistration = new UserRegistration();
             Console.WriteLine("Enter the Password");
             string Pass_Word = Console.ReadLine();
-            userRegistration.ValidatePassWord3(Pass_Word);
+            userRegistration.ValidatePassWord4(Pass_Word);
 
         }
     }
