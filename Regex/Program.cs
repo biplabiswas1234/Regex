@@ -8,9 +8,9 @@ namespace RegexValidation
         {
             Console.WriteLine("Welocme to Regex");
             UserRegistration userRegistration = new UserRegistration();
-            Console.WriteLine("Enter the Mobile Number");
-            string MobileNumber = Console.ReadLine();
-            userRegistration.ValidateMobileNum(MobileNumber);
+            Console.WriteLine("Enter the Password");
+            string Pass_Word = Console.ReadLine();
+            userRegistration.ValidatePassWord1(Pass_Word);
 
         }
     }
