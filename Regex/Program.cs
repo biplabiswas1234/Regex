@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace RegexValidation
 {
     public class Program
@@ -10,7 +9,7 @@ namespace RegexValidation
             UserRegistration userRegistration = new UserRegistration();
             Console.WriteLine("Enter the Password");
             string Pass_Word = Console.ReadLine();
-            userRegistration.ValidatePassWord2(Pass_Word);
+            userRegistration.ValidatePassWord3(Pass_Word);
 
         }
     }
